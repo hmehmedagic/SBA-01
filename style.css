@@ -1,0 +1,199 @@
+.eb-garamond-EB {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-dark-rgb), 0) !important;
+}
+
+.btn-secondary {
+    --bs-btn-bg: rgba(0, 0, 0, 0);
+    --bs-btn-border-color: rgba(0, 0, 0, 0);
+    --bs-btn-active-bg: rgba(0, 0, 0, 0);
+    --bs-btn-hover-bg: rgba(0, 0, 0, 0);
+}
+
+.btn {
+    --bs-btn-border-width: 0px;
+}
+
+.btn:hover {
+    color: rgba(255, 255, 255, 0.7);
+}
+
+.navbar-brand {
+    color: white;
+}
+
+#offcanvasDarkNavbarLabel {
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    font-family: EB;
+}
+
+#offcanvasDarkNavbarLabel::first-letter {
+    font-size: 40px;
+}
+
+.offcanvas-title {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-family: EB;
+}
+
+.offcanvas-title::first-letter {
+    font-size: 30px;
+}
+
+.offcanvasDarkNavbarLabel:hover,
+.offcanvas-title:hover {
+    opacity: .8;
+}
+
+.btn-secondary,
+.dropdown-item,
+.buyNow {
+    font-family: EB;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('https://relink.granbluefantasy.jp/assets/images/common/pc/top/mv_bg.png?20240220020243');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    /* object-fit: cover; */
+    z-index: -1;
+}
+
+.navbar {
+    margin-top: 30px;
+}
+
+.buyNow {
+    width: 200px;
+    height: 40px;
+    border: none;
+    color: white;
+    /* background: rgb(255, 255, 255); */
+    background: linear-gradient(0deg, rgba(255, 255, 255, 1) -300%, rgba(64, 155, 231, 1) 100%);
+}
+
+.ms-auto {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.text-bg-dark {
+    background-color: rgba(49, 95, 115, 0.7) !important;
+}
+
+.oc-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.logoHdr {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    height: 211.2px;
+}
+
+.logoTxt {
+    color: white;
+    text-shadow: 0 0 1px rgb(69, 111, 130), 0 0 2px rgb(69, 111, 130), 0 0 4px rgb(69, 111, 130), 0 0 8px rgb(69, 111, 130), 0 0 30px rgb(69, 111, 130), 0 0 40px rgb(69, 111, 130), 0 0 55px rgb(69, 111, 130), 0 0 75px rgb(69, 111, 130);
+}
+
+.manual {
+    background-image: url('https://relink.granbluefantasy.jp/assets/images/common/common/top/manual_bnr.jpg?20240220020243');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 288px;
+    height: 96px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+.playNow {
+    background-image: url('https://relink.granbluefantasy.jp/assets/images/en/common/top/demo_bnr.jpg?20240220020243');
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 288px;
+    height: 96px;
+    border: none;
+    cursor: pointer;
+    transition: ease-in .2s;
+}
+
+.wrapper__total {
+    margin-top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between
+}
+
+.wrapper__btn {
+    height: 213.11px;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.compLogo {
+    height: 20px;
+}
+
+.conLogo {
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    box-shadow: 0 0 1px rgb(69, 111, 130), 0 0 2px rgb(69, 111, 130), 0 0 4px rgb(69, 111, 130), 0 0 8px rgb(69, 111, 130), 0 0 30px rgb(69, 111, 130), 0 0 40px rgb(69, 111, 130), 0 0 55px rgb(69, 111, 130), 0 0 75px rgb(69, 111, 130);
+    ;
+}
+
+.availNow {
+    font-size: 64px;
+    color: white;
+    text-shadow: 0 0 1px rgb(69, 111, 130), 0 0 2px rgb(69, 111, 130), 0 0 4px rgb(69, 111, 130), 0 0 8px rgb(69, 111, 130), 0 0 30px rgb(69, 111, 130), 0 0 40px rgb(69, 111, 130), 0 0 55px rgb(69, 111, 130), 0 0 75px rgb(69, 111, 130);
+}
+
+.dummy {
+    content: '';
+    width: 19%;
+}
+
+.manual:hover,
+.playNow:hover {
+    opacity: 0.5;
+}
+
+.dropdown-menu {
+    --bs-dropdown-color: #80a7c0;
+    --bs-dropdown-border-color: #80a7c0;
+    --bs-dropdown-border-radius: none;
+    --bs-dropdown-link-color: none;
+}

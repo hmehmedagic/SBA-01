@@ -1,0 +1,50 @@
+.carousel-container {
+    /* display: flex; */
+    height: auto;
+    /* width: 200px; */
+    width: 100%;
+}
+
+.carousel-item {
+    width: 169.717px;
+}
+
+.top__chars {
+    display: flex;
+    justify-content: center;
+}
+
+.mid__chars {
+    display: flex;
+    justify-content: center;
+}
+
+.bot__chars {
+    display: flex;
+    justify-content: center;
+}
+
+.w-100 {
+    width: 169.717px !important;
+    /* background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%); */
+}
+
+#katalina {
+    position: relative;
+}
+
+#katalina::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100px;
+    /* Adjust as needed */
+    height: 100px;
+    /* Adjust as needed */
+    background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
+    background-size: cover;
+    /* Adjust as needed */
+    background-repeat: no-repeat;
+    /* Adjust as needed */
+}
