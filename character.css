@@ -1,3 +1,14 @@
+@keyframes myAnim {
+    0% {
+        opacity: 0;
+        transform: translateY(50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
 .carousel-container {
     /* display: flex; */
     height: auto;
@@ -29,22 +40,55 @@
     /* background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%); */
 }
 
-#katalina {
+.image-container {
     position: relative;
+    display: inline-block;
 }
 
-#katalina::before {
-    content: "";
+
+/* Main image */
+
+.image-container img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Pseudo-element to overlay */
+
+.image-container::before {
+    content: '';
     position: absolute;
     top: 0;
-    left: 0;
-    width: 100px;
-    /* Adjust as needed */
-    height: 100px;
-    /* Adjust as needed */
-    background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
+    left: 10px;
+    width: 89%;
+    height: 96%;
+    background-image: linear-gradient(to top, rgba(112, 181, 192, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
     background-size: cover;
-    /* Adjust as needed */
-    background-repeat: no-repeat;
-    /* Adjust as needed */
+    opacity: 0;
+    pointer-events: none;
+    transition: height 0.5s;
+    /* Smooth transition for height change */
+}
+
+.charNames {
+    position: absolute;
+    top: 30%;
+    left: 65%;
+    width: 30.7166px;
+    height: 218.85px;
+    z-index: 1;
+    opacity: 0;
+}
+
+.image-container:hover::before {
+    opacity: 1;
+    transition: ease-in 0.3s;
+    animation: myAnim 2s ease 0s 1 normal forwards;
+}
+
+.image-container:hover .charNames {
+    opacity: 1;
+    transition: ease-in 0.3s;
 }
