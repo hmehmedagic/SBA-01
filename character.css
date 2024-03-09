@@ -90,6 +90,7 @@
 }
 
 #main-char-container::before {
+    top: 4px;
     background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
 }
 
@@ -103,7 +104,7 @@
 }
 
 #main-char {
-    top: 30%;
+    top: 39%;
 }
 
 #katalina {
