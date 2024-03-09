@@ -1,26 +1,39 @@
 @keyframes myAnim {
     0% {
-        opacity: 0;
-        transform: translateY(50px);
+        transform: scaleY(0);
     }
     100% {
-        opacity: 1;
-        transform: translateY(0);
+        transform: scaleY(1);
     }
 }
 
+.logo {
+    width: 190.067px;
+    height: 69.75px;
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
 .carousel-container {
-    /* display: flex; */
+    display: flex;
+    justify-content: center;
     height: auto;
-    /* width: 200px; */
     width: 100%;
+    z-index: -999;
 }
 
 .carousel-item {
     width: 169.717px;
 }
 
-.top__chars {
+.top_container {
+    display: flex;
+    justify-content: center;
+}
+
+.bot_container {
     display: flex;
     justify-content: center;
 }
@@ -72,23 +85,124 @@
     /* Smooth transition for height change */
 }
 
+#id-container::before {
+    background-image: linear-gradient(to top, rgba(205, 31, 31, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
+}
+
+#main-char-container::before {
+    background-image: linear-gradient(to top, rgba(68, 139, 255, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
+}
+
 .charNames {
     position: absolute;
-    top: 30%;
-    left: 65%;
     width: 30.7166px;
     height: 218.85px;
     z-index: 1;
     opacity: 0;
+    left: 75%;
+}
+
+#main-char {
+    top: 30%;
+}
+
+#katalina {
+    top: 40%;
+}
+
+#rackam {
+    top: 43%;
+}
+
+#io {
+    top: 55%;
+}
+
+#eugen {
+    top: 47%;
+}
+
+#rosetta {
+    top: 43%;
+}
+
+#lancelot {
+    top: 40%;
+}
+
+#vane {
+    top: 50%;
+}
+
+#percival {
+    top: 39%;
+}
+
+#siegfried {
+    top: 38%;
+}
+
+#charlotta {
+    top: 33%;
+}
+
+#yodahara {
+    top: 38%;
+}
+
+#naramaya {
+    top: 39%;
+}
+
+#zeta {
+    top: 48%
+}
+
+#vaseraga {
+    top: 39%;
+}
+
+#ferry {
+    top: 46%;
+}
+
+#ghandagoza {
+    top: 31%;
+}
+
+#cagliostro {
+    top: 36%;
+}
+
+#id {
+    top: 54%;
 }
 
 .image-container:hover::before {
     opacity: 1;
-    transition: ease-in 0.3s;
-    animation: myAnim 2s ease 0s 1 normal forwards;
+    transition: ease-in 0.5s;
+    animation: myAnim 2s ease 0s 1 normal reverse;
 }
 
 .image-container:hover .charNames {
     opacity: 1;
-    transition: ease-in 0.3s;
+    transition: ease-in 0.5s;
+    animation: myAnim 2s ease 0s 1 normal reverse;
+}
+
+.main__char {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.top__chars {
+    margin-top: 50px;
+}
+
+.carousel-item:hover .charNames {
+    opacity: 1;
+    transition: ease-in 0.5s;
+    animation: myAnim 2s ease 0s 1 normal reverse;
 }
