@@ -80,8 +80,9 @@ body.reg {
     height: 30px;
 }
 
-.signUpBtn {
-    height: 60px;
+.signUpBtn2 {
+    display: flex;
+    justify-content: center;
 }
 
 #myAccount {
