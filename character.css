@@ -7,6 +7,13 @@
     }
 }
 
+.eb-garamond-EB {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
 .logo {
     width: 190.067px;
     height: 69.75px;
@@ -147,11 +154,11 @@
     top: 33%;
 }
 
-#yodahara {
+#yodarha {
     top: 38%;
 }
 
-#naramaya {
+#narmaya {
     top: 39%;
 }
 
@@ -200,10 +207,4 @@
 
 .top__chars {
     margin-top: 50px;
-}
-
-.carousel-item:hover .charNames {
-    opacity: 1;
-    transition: ease-in 0.5s;
-    animation: myAnim 2s ease 0s 1 normal reverse;
 }

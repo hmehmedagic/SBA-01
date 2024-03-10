@@ -1,0 +1,96 @@
+.eb-garamond-EB {
+    font-family: "EB Garamond", serif;
+    font-optical-sizing: auto;
+    /* font-weight: <weight>; */
+    font-style: normal;
+}
+
+.return {
+    height: 100px;
+    width: auto;
+}
+
+.name-container {
+    display: flex;
+    top: 200px;
+    left: 47%;
+    position: absolute;
+    overflow: hidden;
+    font-family: EB;
+}
+
+.name {
+    color: #4a82a5;
+    font-weight: 500;
+}
+
+.name::first-letter {
+    font-size: 50px;
+}
+
+.content-container {
+    position: relative;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: center;
+}
+
+.table-container {
+    display: flex;
+    justify-content: center;
+}
+
+.table-dark {
+    border: solid;
+    --bs-table-color: #80a7c0;
+    --bs-table-bg: white;
+    --bs-table-hover-bg: #80a7c0;
+    --bs-table-hover-color: white;
+    font-family: EB;
+}
+
+.hdr::first-letter {
+    font-size: 30px;
+}
+
+.skill-icon {
+    height: 60px;
+    width: auto;
+}
+
+.name {
+    z-index: 1;
+}
+
+#vaseraga {
+    top: 10px;
+}
+
+#ferry {
+    left: 45%;
+}
+
+#ghandagoza {
+    top: 10px;
+}
+
+#id {
+    left: 55%;
+}
+
+#captain-1 {
+    position: relative;
+    top: -200px;
+}
+
+#captain-2 {
+    position: relative;
+    top: -200px;
+    right: 180px;
+}
+
+#captain-table {
+    position: relative;
+    top: 200px;
+}
