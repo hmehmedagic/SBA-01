@@ -13,5 +13,8 @@ function changeImage(imageId) {
         var placeholderImage = document.getElementById('placeholder-image');
         placeholderHeader.textContent = header.textContent;
         placeholderImage.src = image.src;
+
+        placeholderHeader.style.display = "block";
+        placeholderImage.style.display = "block";
     }
 }

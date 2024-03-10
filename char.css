@@ -110,7 +110,7 @@
 
 .skill-gif-container {
     position: relative;
-    margin-top: 100px;
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -121,8 +121,15 @@
 .skill-gif-text {
     font-family: EB;
     color: #80a7c0;
+    text-decoration: underline;
 }
 
 .skill-gif-text::first-letter {
     font-size: 30px;
+}
+
+#placeholder-image {
+    border: solid #80a7c0;
+    border-radius: 10px;
+    display: none;
 }
