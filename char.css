@@ -1,3 +1,14 @@
+@keyframes fadeInAnimation {
+    from {
+        opacity: 0;
+        /* Start with opacity 0 */
+    }
+    to {
+        opacity: 1;
+        /* Fade in to full opacity */
+    }
+}
+
 .eb-garamond-EB {
     font-family: "EB Garamond", serif;
     font-optical-sizing: auto;
@@ -34,6 +45,8 @@
     /* flex-direction: column; */
     justify-content: center;
     align-items: center;
+    opacity: 0;
+    animation: fadeInAnimation 1s ease forwards;
 }
 
 .table-container {
