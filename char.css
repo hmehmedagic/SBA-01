@@ -107,3 +107,21 @@
     position: relative;
     top: 200px;
 }
+
+.skill-gif-container {
+    position: relative;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-gif-text {
+    font-family: EB;
+    color: #80a7c0;
+}
+
+.skill-gif-text::first-letter {
+    font-size: 30px;
+}
