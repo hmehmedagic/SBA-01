@@ -16,5 +16,9 @@ function changeImage(imageId) {
 
         placeholderHeader.style.display = "block";
         placeholderImage.style.display = "block";
+
+        var containerWidth = document.querySelector('.skill-gif-container').offsetWidth;
+        placeholderHeader.style.justifyContent = "center";
+        placeholderHeader.style.alignItems = "center";
     }
 }

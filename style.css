@@ -1,8 +1,5 @@
-.eb-garamond-EB {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    font-style: normal;
+body {
+    font-family: "EB Garamond", sans-serif;
 }
 
 .bg-dark {
@@ -44,7 +41,6 @@
     color: white;
     text-decoration: none;
     font-size: 20px;
-    font-family: EB;
 }
 
 .offcanvas-title::first-letter {
@@ -54,12 +50,6 @@
 .offcanvasDarkNavbarLabel:hover,
 .offcanvas-title:hover {
     opacity: .8;
-}
-
-.btn-secondary,
-.dropdown-item,
-.buyNow {
-    font-family: EB;
 }
 
 body {
@@ -82,7 +72,6 @@ body {
     height: 40px;
     border: none;
     color: white;
-    /* background: rgb(255, 255, 255); */
     background: linear-gradient(0deg, rgba(255, 255, 255, 1) -300%, rgba(64, 155, 231, 1) 100%);
 }
 
