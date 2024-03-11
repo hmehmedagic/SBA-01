@@ -1,5 +1,9 @@
 /* Login and Register Page CSS */
 
+body {
+    font-family: "EB Garamond", sans-serif;
+}
+
 body.log {
     margin: 0;
     padding: 0;

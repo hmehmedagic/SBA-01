@@ -9,11 +9,8 @@
     }
 }
 
-.eb-garamond-EB {
-    font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    font-style: normal;
+body {
+    font-family: "EB Garamond", sans-serif;
 }
 
 .return {
@@ -27,7 +24,6 @@
     left: 47%;
     position: absolute;
     overflow: hidden;
-    font-family: EB;
 }
 
 .name {
@@ -119,7 +115,6 @@
 }
 
 .skill-gif-text {
-    font-family: EB;
     color: #80a7c0;
     text-decoration: underline;
 }
