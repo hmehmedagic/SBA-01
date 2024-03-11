@@ -16,14 +16,7 @@ body {
 .return {
     height: 100px;
     width: auto;
-}
-
-.name-container {
-    display: flex;
-    top: 200px;
-    left: 47%;
-    position: absolute;
-    overflow: hidden;
+    z-index: 999;
 }
 
 .name {
@@ -68,8 +61,10 @@ body {
     width: auto;
 }
 
-.name {
-    z-index: 1;
+.dummy-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #vaseraga {
@@ -90,18 +85,14 @@ body {
 
 #captain-1 {
     position: relative;
-    top: -200px;
+    top: -350px;
+    pointer-events: none;
 }
 
 #captain-2 {
     position: relative;
-    top: -200px;
+    top: -350px;
     right: 180px;
-}
-
-#captain-table {
-    position: relative;
-    top: 200px;
 }
 
 .skill-gif-container {

@@ -18,11 +18,8 @@
     }
 }
 
-.eb-garamond-EB {
+body {
     font-family: "EB Garamond", serif;
-    font-optical-sizing: auto;
-    /* font-weight: <weight>; */
-    font-style: normal;
 }
 
 .logo {
