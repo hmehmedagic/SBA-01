@@ -7,6 +7,55 @@ body {
     background-color: rgba(var(--bs-dark-rgb), 0) !important;
 }
 
+.buyNow {
+    position: relative;
+    box-shadow: 0 2px 7px 0 rgba(114, 147, 169, 0.3);
+}
+
+
+/*.b_blue::before {
+    position: absolute;
+    background: none;
+    will-change: transform;
+    content: '';
+    top: 2px;
+    left: 2px;
+    right: 2px;
+    bottom: 2px;
+}
+
+.b_blue:nth-child(1):before {
+    animation-name: borderX_out;
+    transform-origin: right;
+    transform: scaleX(0);
+    border-top: 1px solid;
+}
+
+.b_blue._mouseOut .b_blue::before {
+    animation-duration: .5s;
+    animation-timing-function: ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+.b_blue::after {
+    display: block;
+    position: absolute;
+    border-style: solid;
+    border-width: 1px;
+    border-color: transparent;
+    will-change: transform;
+    content: '';
+    width: 10px;
+    height: 10px;
+}
+
+.b_blue:nth-child(1)::after {
+    top: 2px;
+    left: 2px;
+    border-left-color: white;
+    border-top-color: white;
+}*/
+
 .btn-secondary {
     --bs-btn-bg: rgba(0, 0, 0, 0);
     --bs-btn-border-color: rgba(0, 0, 0, 0);
