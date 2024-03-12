@@ -95,9 +95,284 @@ body {
     pointer-events: none;
     transform-origin: bottom;
     transform: scaleY(0);
-    transition: all .5s ease-in-out;
+    transition: all .5s cubic-bezier(0.5, 0, 0, 1);
     /* Smooth transition for height change */
+    z-index: 997;
 }
+
+
+/* Begin Particle Effect */
+
+#particles-js {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js {
+    opacity: 1;
+}
+
+#particles-js2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js2 {
+    opacity: 1;
+}
+
+#particles-js3 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js3 {
+    opacity: 1;
+}
+
+#particles-js4 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js4 {
+    opacity: 1;
+}
+
+#particles-js5 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js5 {
+    opacity: 1;
+}
+
+#particles-js6 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js6 {
+    opacity: 1;
+}
+
+#particles-js7 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js7 {
+    opacity: 1;
+}
+
+#particles-js8 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js8 {
+    opacity: 1;
+}
+
+#particles-js9 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js9 {
+    opacity: 1;
+}
+
+#particles-js10 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js10 {
+    opacity: 1;
+}
+
+#particles-js11 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js11 {
+    opacity: 1;
+}
+
+#particles-js12 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js12 {
+    opacity: 1;
+}
+
+#particles-js13 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js13 {
+    opacity: 1;
+}
+
+#particles-js14 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js14 {
+    opacity: 1;
+}
+
+#particles-js15 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js15 {
+    opacity: 1;
+}
+
+#particles-js16 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js16 {
+    opacity: 1;
+}
+
+#particles-js17 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js17 {
+    opacity: 1;
+}
+
+#particles-js18 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+}
+
+.image-container:hover #particles-js18 {
+    opacity: 1;
+}
+
+#particles-js19 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    /* background-color: black; */
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    z-index: 999;
+    pointer-events: none;
+}
+
+.image-container:hover #particles-js19 {
+    opacity: 1;
+}
+
+
+/* End Particle Effect */
 
 #id-container::before {
     background-image: linear-gradient(to top, rgba(205, 31, 31, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
@@ -112,11 +387,12 @@ body {
     position: absolute;
     width: 30.7166px;
     height: 218.85px;
-    z-index: 1;
     opacity: 0;
     left: 75%;
     opacity: 0;
     transition: opacity 0.2s ease;
+    z-index: 998;
+    pointer-events: none;
 }
 
 .image-container:hover::before {
