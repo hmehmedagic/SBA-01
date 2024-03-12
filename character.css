@@ -93,9 +93,9 @@ body {
     background-image: linear-gradient(to top, rgba(112, 181, 192, 0.8) 0%, rgba(68, 139, 255, 0) 70%);
     background-size: cover;
     pointer-events: none;
-    transition: height 0.5s;
     transform-origin: bottom;
     transform: scaleY(0);
+    transition: all .5s ease-in-out;
     /* Smooth transition for height change */
 }
 
@@ -115,6 +115,16 @@ body {
     z-index: 1;
     opacity: 0;
     left: 75%;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.image-container:hover::before {
+    transform: scaleY(1);
+}
+
+.image-container:hover .charNames {
+    animation: myAnim2 1.3s normal forwards;
 }
 
 #main-char {
@@ -191,17 +201,6 @@ body {
 
 #id {
     top: 54%;
-}
-
-.image-container:hover::before {
-    transition: transform .5s ease, myAnim .5s ease;
-    transform-origin: bottom;
-    animation: myAnim 1.3s cubic-bezier(0.5, 0, 0, 1) normal forwards;
-}
-
-.image-container:hover .charNames {
-    transform-origin: bottom;
-    animation: myAnim2 1.3s cubic-bezier(0.5, 0, 0, 1) normal forwards;
 }
 
 .main__char {
