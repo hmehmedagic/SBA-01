@@ -385,11 +385,14 @@ body {
 
 .charNames {
     position: absolute;
-    width: 30.7166px;
-    height: 218.85px;
+    /* width: 2vw; */
+    /* height: 20px; */
+    z-index: 998;
     opacity: 0;
-    left: 75%;
-    opacity: 0;
+    right: .5vw;
+    bottom: .5vw;
+    width: 2vw;
+    /* left: 75%; */
     transition: opacity 0.2s ease;
     z-index: 998;
     pointer-events: none;
@@ -401,82 +404,6 @@ body {
 
 .image-container:hover .charNames {
     animation: myAnim2 1.3s normal forwards;
-}
-
-#main-char {
-    top: 39%;
-}
-
-#katalina {
-    top: 40%;
-}
-
-#rackam {
-    top: 43%;
-}
-
-#io {
-    top: 55%;
-}
-
-#eugen {
-    top: 47%;
-}
-
-#rosetta {
-    top: 43%;
-}
-
-#lancelot {
-    top: 40%;
-}
-
-#vane {
-    top: 50%;
-}
-
-#percival {
-    top: 39%;
-}
-
-#siegfried {
-    top: 38%;
-}
-
-#charlotta {
-    top: 33%;
-}
-
-#yodarha {
-    top: 38%;
-}
-
-#narmaya {
-    top: 39%;
-}
-
-#zeta {
-    top: 48%
-}
-
-#vaseraga {
-    top: 39%;
-}
-
-#ferry {
-    top: 46%;
-}
-
-#ghandagoza {
-    top: 31%;
-}
-
-#cagliostro {
-    top: 36%;
-}
-
-#id {
-    top: 54%;
 }
 
 .main__char {
